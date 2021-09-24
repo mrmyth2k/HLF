@@ -8,7 +8,7 @@ sudo apt update && sudo apt upgrade -y
 ```
 After updating your pc you need to install some essential tools
 ```bash
-sudo apt install build-essentials git curl python3-pip
+sudo apt install build-essentials git curl python3-pip -y
 ```
 So, after getting essentials we go and install node js
 ```bash
@@ -27,7 +27,7 @@ So you will find the output like this.
 
 After installation of node we install `go language`.
 ```bash
-sudo apt install golang
+sudo apt install golang -y
 ```
 To check the installation of go lang.
 ```bash
