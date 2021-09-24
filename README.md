@@ -5,6 +5,7 @@ At first we need to update our pc.
 sudo apt update && sudo apt upgrade -y
 ```
 ![update](https://github.com/mrmyth2k/HLF/blob/main/pics/update.png)
+
 After updating your pc you need to install some essential tools
 ```bash
 sudo apt install build-essentials git curl python3-pip -y
