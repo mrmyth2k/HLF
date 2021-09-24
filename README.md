@@ -126,6 +126,8 @@ Now it's time to up our blockchain network. If you want to write your chaincode 
 ```bash
 ./byfn.sh up
 ```
+![start](https://github.com/mrmyth2k/HLF/blob/main/pics/Screenshot%20from%202021-09-24%2017-21-20.png)
+
 Apart from it HLF provides us two more language to write our chaincode. In `node` and `java`.
 so for achieving this up your network with `-l` flag.
 As `./byfn.sh up -l node` or `./byfn.sh up -l java`
@@ -138,3 +140,4 @@ Finally when you want to down your network then use
 ```bash
 ./byfn.sh down
 ```
+![end](https://github.com/mrmyth2k/HLF/blob/main/pics/Screenshot%20from%202021-09-24%2017-21-36.png)
