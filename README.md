@@ -2,7 +2,7 @@
 ---
 In this blog you will find how to install and setup hyperledger fabric on you ubuntu machine.
 ---
-At fist we need to update our pc.
+At first we need to update our pc.
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
