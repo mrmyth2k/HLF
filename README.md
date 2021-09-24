@@ -10,6 +10,8 @@ After updating your pc you need to install some essential tools
 ```bash
 sudo apt install build-essentials git curl python3-pip -y
 ```
+![essen](https://github.com/mrmyth2k/HLF/blob/main/pics/build-essentials.png)
+
 So, after getting essentials we go and install node js
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
@@ -18,6 +20,8 @@ After this restart your terminal and then execute these commands.
 ```bash
 nvm install v14.17.6
 ```
+![node](https://github.com/mrmyth2k/HLF/blob/main/pics/node.png)
+
 To check whether installation of node is complete or not run these command.
 ```bash
 node -v
@@ -25,10 +29,14 @@ npm -v
 ```
 So you will find the output like this.
 
+![version](https://github.com/mrmyth2k/HLF/blob/main/pics/node-version.png)
+
 After installation of node we install `go language`.
 ```bash
 sudo apt install golang -y
 ```
+![go](https://github.com/mrmyth2k/HLF/blob/main/pics/go.png)
+
 To check the installation of go lang.
 ```bash
 go version
@@ -39,6 +47,8 @@ mkdir go
 cd go
 mkdir src bin pkg
 ```
+![go-dir](https://github.com/mrmyth2k/HLF/blob/main/pics/go-dir.png)
+
 After creating directory, open your .bashrc file by these command.
 ```bash
 nano ~/.bashrc
@@ -48,7 +58,12 @@ Add these lines at the end of yor `.bashrc` file.
 export GOPATH=/home/$USER/go
 export PATH=$PATH:$GOPATH/bin
 ```
+![bash](https://github.com/mrmyth2k/HLF/blob/main/pics/bashrc.png)
+
 Then press `ctrl + x` then press `y` then press `Enter`. After this you came out of `.bashrc` file and reload your terminal.
+
+![bash-](https://github.com/mrmyth2k/HLF/blob/main/pics/out-bashrc.png)
+
 ```bash
 source ~/.bashrc
 ```
@@ -57,6 +72,9 @@ Now we will configure our git inorder to install HLF
 git config --global core.autocrlf false
 git config --global core.longpaths true
 ```
+
+![config](https://github.com/mrmyth2k/HLF/blob/main/pics/git-config.png)
+
 Now we will install docker. So docker provides us a script inorder to install it on [https://get.docker.com/](https://get.docker.com/).
 So we install it simply by running these lines.
 ```bash
@@ -76,14 +94,18 @@ To check docker compose installation run this commands.
 ```bash
 docker-compose --version
 ```
+![vers](https://github.com/mrmyth2k/HLF/blob/main/pics/docker-compose.png)
+
 No now our all requirements are fullfilled. Now let's start installing HLF.
 ```bash
 cd ~/go/src
 mkdir HyperledgerFabric && cd HyperledgerFabric
 ```
+![goh](https://github.com/mrmyth2k/HLF/blob/main/pics/go-dir.png)
+
 Now here comes the options if you want to install HLF of specific verion then run.
 ```bash
-curl -sSL http://bit.ly/2ysbOFE | bash -s <your version goes here
+curl -sSL http://bit.ly/2ysbOFE | bash -s <your version goes here>
 ```
 for example : `curl -sSL http://bit.ly/2ysbOFE | bash -s 1.4.4 1.4.4 0.4.18` This will install HLF 1.4
 if you want to install latest version of HLF,rhn run this command.
