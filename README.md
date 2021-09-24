@@ -122,7 +122,7 @@ Here you will find `byfn.sh` file which is a script for building your first netw
 ```bash
 ./byfn.sh generate
 ```
-Now it's time to up our blockchain network. If you want to write your chaincode in go then run directly by
+Now it's time to up our blockchain network. If you want to write your chaincode in `go` then run directly by
 ```bash
 ./byfn.sh up
 ```
