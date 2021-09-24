@@ -52,7 +52,7 @@ Then press `ctrl + x` then press `y` then press `Enter`. After this you came out
 ```bash
 source ~/.bashrc
 ```
-Now we will configure our git inorder to install [HLF](# Hyperledger Fabric Installation).
+Now we will configure our git inorder to install [HLF](# Hyperledger Fabric Installation)
 ```bash
 git config --global core.autocrlf false
 git config --global core.longpaths true
